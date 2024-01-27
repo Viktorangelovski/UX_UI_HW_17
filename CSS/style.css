@@ -1,0 +1,236 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navigation Header Styles */
+.navigation {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+}
+
+.logo {
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+    cursor: pointer; /* Add cursor pointer for better user experience */
+}
+
+/* Add new styles for hover effect and font-weight */
+nav li:hover {
+    color: rgb(0, 221, 255);
+}
+
+nav li, .logo {
+    font-weight: bold; /* You can adjust the value to your preference */
+}
+
+/* Hero Banner Styles */
+.hero img {
+    width: 100%;
+}
+
+.hero-button {
+    position: absolute;
+    bottom: -3.7%; /* Adjust as needed */
+    right: 77.4%; /* Adjust as needed */
+    transform: translate(-50%, -50%); /* Center the button */
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* Work Showcase Styles */
+.work-showcase {
+    padding: 70px 0 50px;
+    margin: 0 15%;
+}
+
+.work-showcase h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 53px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.work-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 90px;
+    width: 100%;
+}
+
+.work-box div {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.left-side, .right-side {
+    height: 465.4px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.black-bg {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+/* Companies Section Styles */
+.companies {
+    text-align: center;
+    margin: 50px 15% 0;
+}
+
+.companies h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: -100px;
+}
+
+.companies ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 8px;
+}
+
+.companies li {
+    margin: 0 0 10px;
+    width: calc(33.33% - 20px);
+    font-size: 16px;
+}
+
+/* Nice to Meet You Section Styles */
+.nice-to-meet-you {
+    text-align: left;
+    padding: 50px 15%;
+    background-color: black;
+    color: white;
+    position: relative;
+    margin-top: 80px;
+}
+
+.work-box h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    margin: 20px;
+    align-items: center;
+}
+
+.work-box p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    align-items: left;
+    line-height: 2;
+}
+
+.nice-to-meet-you h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 62px;
+    font-weight: 600;
+    margin-bottom: -15px;
+    margin-top: 80px;
+    margin-left: 120px;
+}
+
+.nice-to-meet-you p {
+    font-family: 'Futura', sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    width: 550px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    line-height: 1.5;
+}
+
+.nice-to-meet-you img {
+    width: 240px;
+    height: auto;
+    border: 1px solid white;
+    margin-bottom: px;
+    float: right;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: -230px; /* Adjusted margin to raise the image higher */
+    max-width: 100%;
+}
+
+.button-container {
+    text-align: left;
+}
+
+
+button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 120px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Ensure black background extends to the bottom of the page */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1;
+}
